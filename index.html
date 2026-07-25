@@ -17,6 +17,7 @@ the HTML code. -->
 // and stores it in a constant called randomNum
 const randomNum = Math.ceil(Math.random() * 10); 
 let userNum = 0
+while (userNum !== randomNum)
 userNum = Number(prompt("Enter a number between 1 and 10:"));
 if (userNum > randomNum) {alert("Lower");}
 else if (userNum < randomNum) {alert("Higher");}
